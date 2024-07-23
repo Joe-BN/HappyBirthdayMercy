@@ -1,0 +1,38 @@
+body{
+    color: whitesmoke;
+    display: flex;
+    display: grid;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-image: url(../images/Real.jpg);
+        background-size:cover;
+    }
+  }
+.main_box{
+    background: rgba(78, 47, 119, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border: 1px solid rgba(78, 47, 119, 0.37);
+
+    border-width: 3px;
+    border-radius: 8px;
+
+    padding: 10px;
+    margin-top: 10%;
+}
+.main_box{
+    font-family: cursive;
+    font-weight: 300px;
+    font-size: medium;
+}
+.main_box .hey{
+    font-weight: 300px;
+    font-size: larger;
+}
+.main_box .foot{
+    font-weight: 300px;
+    font-size: large;
+}
